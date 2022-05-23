@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&family=MuseoModerno:wght@200&family=Roboto+Slab:wght@900&display=swap');
+
+.Navbar {
+    background-color: #5AB3EE;
+    margin: 10px 0px;
+    padding: 0px 15px;
+    font-family: MuseoSans, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #4f5864;
+}
+
+
+/* MuseoSans - 400× Family MuseoSans,
+BlinkMacSystemFont,
+-apple-system,
+"Segoe UI",
+Roboto,
+Oxygen,
+Ubuntu,
+Cantarell,
+"Fira Sans",
+"Droid Sans",
+"Helvetica Neue",
+Helvetica,
+Arial,
+sans-serif;
+Style normal Weight 400 Size 16px Line Height 21px Color #4f5864 */

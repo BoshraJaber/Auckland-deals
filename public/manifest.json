@@ -1,25 +1,31 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "theme_color": "#01b2ee",
+  "prefer_related_applications": true,
+  "name": "GrabOne",
+  "short_name": "GrabOne",
   "icons": [
     {
-      "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
-    },
-    {
-      "src": "logo192.png",
+      "src": "//new-cdn.grabone.co.nz/static/img/favicons/android-chrome-192x192.df80f5a2a20b.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "logo512.png",
+      "src": "//new-cdn.grabone.co.nz/static/img/favicons/android-chrome-512x512.ec537c57bd2b.png",
       "type": "image/png",
       "sizes": "512x512"
     }
   ],
-  "start_url": ".",
-  "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "start_url": "/?utm_source=web_app_manifest",
+  "display": "browser",
+  "related_applications": [
+    {
+      "url": "https://play.google.com/store/apps/details?id=com.grabone.goapprn",
+      "platform": "play",
+      "id": "com.grabone.goapprn"
+    },
+    {
+      "url": "https://itunes.apple.com/nz/app/grabone/id1213651425",
+      "platform": "itunes"
+    }
+  ]
 }
