@@ -45,7 +45,7 @@ export default function NavBar() {
                         <div id="banner-search" className="header-search">
 
 
-                            <form id="search-bar" className="search-bar" method="get" action="https://new.grabone.co.nz/search" autocomplete="on">
+                            <form id="search-bar" className="search-bar" method="get" action="https://new.grabone.co.nz/search" autoComplete="on">
                                 <input name="region" type="hidden" value="auckland" />
                                 <input name="view" type="hidden" value="" />
 

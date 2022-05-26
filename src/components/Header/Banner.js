@@ -37,10 +37,10 @@ export default function Banner() {
                             <NavDropdown title={city} id="basic-nav-dropdown">
 
                                 {
-                                    cities.map(city => {
+                                    cities.map((city,index) => {
                                         return (
 
-                                            <NavDropdown.Item classNmae="black-text" onClick={() => { handleCityChange(city) }} >{city}</NavDropdown.Item>
+                                            <NavDropdown.Item key={index} className="black-text" onClick={() => { handleCityChange(city) }} >{city}</NavDropdown.Item>
                                         )
                                     })
                                 }
@@ -55,10 +55,10 @@ export default function Banner() {
                             <NavDropdown id="basic-nav-dropdown">
 
                                 {
-                                    userOptions.map(option => {
+                                    userOptions.map((option,index) => {
                                         return (
 
-                                            <NavDropdown.Item classNmae="black-text">{option}</NavDropdown.Item>
+                                            <NavDropdown.Item key={ index} className="black-text">{option}</NavDropdown.Item>
                                         )
                                     })
                                 }
