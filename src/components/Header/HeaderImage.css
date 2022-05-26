@@ -1,37 +1,23 @@
 .headerimage {
-     margin: auto;
-     display: block;
-     padding: 10px 10px 0px 10px;
-     text-align: center;
- }
+    margin: auto;
+    margin-top:2%;
+    display: block;
+    padding: 10px 10px 0px 10px;
+    text-align: center;
+}
 
- .mobileheaderimage {
-     margin: auto;
-     display: none;
-     padding: 0px 5px 0px 5px;
- }
+.desktopheaderimage{
+    width: 100%;
+}
 
- /* Override Start : Mobile Banner display by default */
- #search-toolbar #search-toolbar-intro button {
-     display: none;
- }
+/* .headerimage {
+    display: block !important;
+}
 
- #search-toolbar #search-toolbar-intro>div {
-     display: block;
- }
+#search-toolbar #search-toolbar-intro>div {
+    display: block;
+}
 
- #search-toolbar-intro .headerimage {
-     display: block !important;
- }
-
- /* Override End */
-
- @media screen and (max-width: 600px) {
-     #search-toolbar-intro .desktopheaderimage {
-         display: none;
-     }
-
-     #search-toolbar-intro .mobileheaderimage {
-         display: block;
-     }
- }
+#search-toolbar-intro .headerimage {
+    display: block !important;
+} */

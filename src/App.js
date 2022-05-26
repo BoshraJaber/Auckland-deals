@@ -19,7 +19,7 @@ function App() {
 
 
   return (
-    <div className="App">
+    <>
       <Banner />
       <NavBar />
       <HeaderImage />
@@ -28,7 +28,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/:city_name" element={<Banner />} />
       </Routes>
-    </div>
+    </>
   );
 }
 
