@@ -5,7 +5,8 @@ import HeaderImage from './components/Header/HeaderImage'
 import Card from "./components/Main/Cards"
 // import { useSelector, useDispatch } from 'react-redux';
 
-import Banner from './components/Header/Banner'
+import Banner from './components/Header/Banner';
+import NavBar from './components/Header/NavBar';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
   return (
     <div className="App">
       <Banner />
+      <NavBar />
       <HeaderImage />
       <Card />
       <Routes>

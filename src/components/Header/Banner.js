@@ -11,7 +11,7 @@ import { ReactComponent as ShoppingCart } from '../assets/shopping-cart.svg';
 import { ReactComponent as User } from '../assets/user.svg';
 
 
-
+const style = { color: "white", paddingLeft: "5px", marginTop: "9px", fontFamily: 'Museo normal' }
 
 
 export default function Banner() {
@@ -47,7 +47,7 @@ export default function Banner() {
                             </NavDropdown>
                         </span>
                         <span className='droplist'>
-                        <HeartIcon />
+                            <HeartIcon />
                         </span>
 
                         <span className='droplist'>
@@ -71,7 +71,7 @@ export default function Banner() {
                         <span className='droplist'>
 
                             <Mail />
-                            <p style={{ color: "white", paddingLeft: "5px", marginTop: "9px", fontFamily: 'Museo normal' }}> Subscribe</p>
+                            <p style={style}> Subscribe</p>
                         </span>
                     </Nav>
                 </Container>

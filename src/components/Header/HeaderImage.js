@@ -19,3 +19,15 @@ export default function HeaderImage() {
 }
 
 
+
+{/* <div class="headerimage">
+    <a href="/<region>/c/explore-new-zealand"><img src="https://mediacdn.grabone.co.nz/asset/q7KV8t0zNm" class="desktopheaderimage" alt="Explore New Zealand"/></a>
+    </div>
+
+<div class="mobileheaderimage">
+    <a href="/<region>/c/explore-new-zealand"><img src="https://mediacdn.grabone.co.nz/asset/CXTN6cRYU6" class="mobileheaderimage" alt="Explore New Zealand"/></a>
+    </div>
+  </div >
+</div > */}
+
+

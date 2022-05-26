@@ -9,8 +9,10 @@
   src: local('Awesome-Font'), local('Awesome-Font-Regular'),
     url('./components/font/MuseoSansCyrl-700.woff') format('woff');
 }
+
 @font-face {
   font-family: 'Museo normal';
   src: local('Awesome-Font'), local('Awesome-Font-Regular'),
     url('./components/font/MuseoSansCyrl-500.woff') format('woff');
 }
+
