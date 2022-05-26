@@ -71,7 +71,7 @@ export default function Banner() {
                         <span className='droplist'>
 
                             <Mail />
-                            <p classNmae="second-text"> Subscribe</p>
+                            <p style={{ color: "white", paddingLeft: "5px", marginTop: "9px", fontFamily: 'Museo normal' }}> Subscribe</p>
                         </span>
                     </Nav>
                 </Container>
