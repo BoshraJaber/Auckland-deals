@@ -15,25 +15,21 @@ export default function Form() {
                         <h4 className="main-footer__heading">Follow us on</h4>
                         <div className="main-footer__social-icons-container">
                             <a href="https://www.facebook.com/GrabOne" target="_blank" rel="noopener">
-                                {/* <svg className="main-footer__social-icon"><use xlink:href="#facebook-with-circle"></use></svg> */}
                                 <Facebook className="main-footer__social-icon"/>
                             </a>
                             <a href="https://twitter.com/grab_one" target="_blank" rel="noopener">
-                                {/* <svg className="main-footer__social-icon"><use xlink:href="#twitter-with-circle"></use></svg> */}
                                 <Twitter className="main-footer__social-icon"/>
                             </a>
                             <a href="https://www.instagram.com/grabone_nz/" target="_blank" rel="noopener">
-                                {/* <svg className="main-footer__social-icon"><use xlink:href="#instagram-with-circle"></use></svg> */}
+                              
                                 <Instagram className="main-footer__social-icon"/>
                             </a>
                             <a href="https://www.youtube.com/grabonenz" target="_blank" rel="noopener">
-                                {/* <svg className="main-footer__social-icon"><use xlink:href="#youtube-with-circle"></use></svg> */}
                                 <Youtube className="main-footer__social-icon"/>
                             </a>
                         </div>
                         <h4 className="main-footer__heading">Get app exclusive deals</h4>
                         <a href="/mobile" className="main-footer__button">
-                            {/* <svg className="main-footer__button-icon"><use xlink:href="#feather-smartphone"></use></svg> */}
                             <Phone className="main-footer__button-icon"/>
                             Download our App</a>
                     </nav>

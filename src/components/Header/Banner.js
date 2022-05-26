@@ -79,36 +79,3 @@ export default function Banner() {
         </header>
     )
 }
-
-
-// <style>
-//     .cart-icon-button-count {
-//         background - color: #fa3e3e;
-//     border-radius: 4px;
-//     color: white;
-//     font-size: 12px;
-//     font-weight: 900;
-//     position: absolute;
-//     width: 18px;
-//     bottom: 15px;
-//     right: -7px;
-// }
-
-//     .cart-icon-button {
-//         display: inline-block;
-//     position: relative;
-//     text-align: center;
-// }
-// </style>
-
-
-// <nav id="banner-primary-nav">
-//     <div className="banner-primary-nav__content">
-//         <div id="banner-brand">
-//             <a href="https://new.grabone.co.nz">
-//                 <svg className="svg__global--go-logo-white">sss</svg>
-//             </a>
-
-//         </div>
-//     </div>
-// </nav>

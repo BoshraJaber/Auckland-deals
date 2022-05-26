@@ -1,7 +1,6 @@
 import './SideBar.css';
 
 export default function SideBar() {
-    const sideBarItems = ["Featured Auckland deals", "Collections", "Escapes", "Picked for You", "Activities, Events &amp; Outdoors", "Store", "Restaurants, Bars, Cafes", ">Beauty, Massage &amp; Spa", "House &amp; Garden", "Fitness &amp; Sports", "Automotive"]
     return (
         <>
 
@@ -100,10 +99,7 @@ export default function SideBar() {
                                     </a>
                                 </li>
                             </ul>
-                        </aside>
-                   
-            
-                
+                        </aside>                
         </>
     )
 }

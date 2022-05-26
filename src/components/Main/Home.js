@@ -1,6 +1,7 @@
 import SideBar from "./SideBar";
 import LargCard from "./LargeCard";
 import EmailForm from "./EmailForm";
+import Cards from "./Cards";
 
 
 
@@ -13,15 +14,16 @@ export default function Home() {
                         <SideBar />
                     </div>
                 </div>
-           
-            <div className="cardsContainer">
-                <LargCard />
-                <LargCard />
+
+                <div className="cardsContainer">
+                    <LargCard />
+                    <LargCard />
 
                 </div>
             </section>
 
-            <EmailForm />   
+            <EmailForm />
+            <Cards />
         </>
     )
 }
