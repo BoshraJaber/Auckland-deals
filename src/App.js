@@ -1,13 +1,11 @@
 import './App.css';
 import { Routes, Route } from "react-router-dom";
-import Home from './Home'
-import Card from "./components/Main/Cards"
 // import { useSelector, useDispatch } from 'react-redux';
 
 import Banner from './components/Header/Banner';
 import NavBar from './components/Header/NavBar';
 import HeaderImage from './components/Header/HeaderImage'
-import SideBar from './components/Main/SideBar';
+import Home from './components/Main/Home';
 
 
 function App() {
@@ -24,8 +22,6 @@ function App() {
       <Banner />
       <NavBar />
       <HeaderImage />
-      <SideBar />
-      <Card />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/:city_name" element={<Banner />} />

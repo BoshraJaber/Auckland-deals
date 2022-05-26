@@ -1,12 +1,11 @@
-import './SideBar.css'
+import './SideBar.css';
 
 export default function SideBar() {
     const sideBarItems = ["Featured Auckland deals", "Collections", "Escapes", "Picked for You", "Activities, Events &amp; Outdoors", "Store", "Restaurants, Bars, Cafes", ">Beauty, Massage &amp; Spa", "House &amp; Garden", "Fitness &amp; Sports", "Automotive"]
     return (
         <>
-            <section className="search-grid containerBody">
-                <div className="homepage-top">
-                    <div className="search-grid-listings discovery-row">
+
+                  
                         <aside className="discover-nav" id="discover-nav">
                             <header>Discover</header>
                             <ul>
@@ -102,9 +101,9 @@ export default function SideBar() {
                                 </li>
                             </ul>
                         </aside>
-                    </div>
-                </div>
-            </section>
+                   
+            
+                
         </>
     )
 }

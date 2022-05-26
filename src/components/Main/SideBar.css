@@ -1,6 +1,6 @@
 .search-grid-listings {
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     margin: 0;
     width: 140%;
     flex: 1
@@ -92,7 +92,7 @@
 
 .discovery-row {
     display: flex;
-    flex-wrap: wrap
+    /* flex-wrap: wrap */
 }
 
 .discovery-row .listing-large {
