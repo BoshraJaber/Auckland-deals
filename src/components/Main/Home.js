@@ -1,5 +1,6 @@
 import SideBar from "./SideBar";
 import LargCard from "./LargeCard";
+import EmailForm from "./EmailForm";
 
 
 
@@ -19,6 +20,8 @@ export default function Home() {
 
                 </div>
             </section>
+
+            <EmailForm />   
         </>
     )
 }

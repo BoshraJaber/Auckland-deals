@@ -1,0 +1,70 @@
+.mail-container {
+
+    margin: 5% 23%;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box
+}
+
+.cta-sub__message {
+    color: #01b2ee;
+    font-size: 24px;
+    font-weight: 700;
+    padding-right: 10px;
+    width: 100%;
+    margin-bottom: 18px
+}
+
+.email-subscription {
+    display: flex;
+    background: #fff;
+    margin: 0;
+    flex: 1;
+    max-width: 750px
+}
+
+.email-subscription__input-container {
+    position: relative;
+    width: 100%
+}
+
+input.email-subscription__input {
+    height: 46px;
+    font-size: 15px;
+    color: #4f5864;
+    padding: 0 0 0 12px;
+    box-shadow: 0 0 8px 0 rgba(79, 88, 100, .1);
+    border-radius: 5px 0 0 5px;
+    border: 1px solid #dce3ed;
+    width: 100%
+}
+
+input.email-subscription__input::-webkit-input-placeholder {
+    color: #92a2ad
+}
+
+input.email-subscription__input:-ms-input-placeholder {
+    color: #92a2ad
+}
+
+input.email-subscription__input::-ms-input-placeholder {
+    color: #92a2ad
+}
+
+input.email-subscription__input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 30px #fff inset
+}
+
+.oldbtn.email-subscription__button {
+    box-shadow: 0 0 8px 0 rgba(1, 178, 238, .5);
+    border: none;
+    background: #01b2ee;
+    border-radius: 0 5px 5px 0;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 0 12px
+}
+
+.email-subscription__icon {
+    display: none
+}

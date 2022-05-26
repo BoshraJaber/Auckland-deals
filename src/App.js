@@ -22,10 +22,7 @@ function App() {
       <Banner />
       <NavBar />
       <HeaderImage />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/:city_name" element={<Banner />} />
-      </Routes>
+      <Home />
     </>
   );
 }
