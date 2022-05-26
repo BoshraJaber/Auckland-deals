@@ -16,3 +16,11 @@
     url('./components/font/MuseoSansCyrl-500.woff') format('woff');
 }
 
+.containerBody {
+  margin-right: auto;
+  margin-left: -370px;
+  padding-left: 15px;
+  padding-right: 15px;
+  box-sizing: border-box;
+  background-color: #F4F7FB;
+}
