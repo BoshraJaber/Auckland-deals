@@ -821,7 +821,7 @@ input.search-bar__query:-webkit-autofill {
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     background: #fff;
-    box-shadow: 0 0 10px 0 rgba(75, 84, 96, .22);
+   
     position: relative;
     z-index: 8;
     min-height: 57px

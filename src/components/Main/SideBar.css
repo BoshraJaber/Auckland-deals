@@ -1,6 +1,6 @@
 .search-grid-listings {
     display: flex;
-    /* flex-wrap: wrap; */
+    /* justify-content: space-between; */
     margin: 0;
     width: 140%;
     flex: 1

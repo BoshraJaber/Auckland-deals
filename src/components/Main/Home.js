@@ -8,10 +8,15 @@ export default function Home() {
         <>
             <section className="search-grid containerBody">
                 <div className="homepage-top">
-                    <div className="search-grid-listings discovery-row d-flex">
-                         <SideBar />
-                        <LargCard />
+                    <div className="search-grid-listings discovery-row">
+                        <SideBar />
                     </div>
+                </div>
+           
+            <div className="cardsContainer">
+                <LargCard />
+                <LargCard />
+
                 </div>
             </section>
         </>
